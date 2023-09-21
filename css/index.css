@@ -60,7 +60,7 @@ header {
 .navbar-brand {
   padding-bottom: 0rem;
   font-size: 2.25rem;
-  font-family: 'Alfa Slab One';
+  /* font-family: 'Alfa Slab One'; */
   font-weight: 900;
 }
 .M,
@@ -106,7 +106,7 @@ a {
   text-align: center;
 }
 .landing-page > h2 {
-  font-family: 'Alfa Slab One';
+  /* font-family: 'Alfa Slab One'; */
   font-size: 2.5rem;
 }
 .follow-me {
