@@ -36,8 +36,8 @@ $(document).ready(function(){
 
    $(all).click(function () {
       $(this).css({
-          "border-bottom": "6px solid deepskyblue",
-          "border-radius": "4px"
+         //  "border-bottom": "6px solid deepskyblue",
+         //  "border-radius": "4px"
       })
       webWork.show('slow');
       canvaWork.show('slow');
@@ -52,8 +52,8 @@ $(document).ready(function(){
 
    $(web).click(function () {
     $(this).css({
-        "border-bottom": "6px solid deepskyblue",
-        "border-radius": "4px"
+      //   "border-bottom": "6px solid deepskyblue",
+      //   "border-radius": "4px"
     })
       webWork.show('slow');
       canvaWork.hide();
@@ -68,8 +68,8 @@ $(document).ready(function(){
 
    $(canva).click(function () {
     $(this).css({
-        "border-bottom": "6px solid deepskyblue",
-        "border-radius": "4px"
+      //   "border-bottom": "6px solid deepskyblue",
+      //   "border-radius": "4px"
     })
       canvaWork.show('slow');
       personaImg.hide();
@@ -98,8 +98,8 @@ $(document).ready(function(){
    $(game).on({
       click: function () {
         $(this).css({
-            "border-bottom": "6px solid deepskyblue",
-            "border-radius": "4px"
+            // "border-bottom": "6px solid deepskyblue",
+            // "border-radius": "4px"
         })
          gameWork.show('slow');
          canvaWork.hide();
